@@ -43,7 +43,7 @@ body {
     /* background-image: linear-gradient(to right, rgb(10, 0, 34), #120020 20%, #15002e 40% , rgb(3, 0, 14) 100%); */
     /* background-image: radial-gradient(red, green, blue); */
     /* background-image: radial-gradient( at 10% 55%, rgb(34, 34, 34), rgb(74, 74, 74), rgb(60, 60, 60), black); */
-    background-image: url("/public/images/bg4.png");
+    background-image: url("/public/images/bg6.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
