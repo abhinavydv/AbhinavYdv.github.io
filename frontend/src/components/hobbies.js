@@ -1,5 +1,4 @@
 import { Box, Divider, Typography } from "@mui/material";
-import { Link } from "react-router-dom";
 import Navbar from "./navbar";
 import "../styles/hobbies.css"
 

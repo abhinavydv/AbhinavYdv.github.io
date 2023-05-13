@@ -8,7 +8,7 @@ import { Home, MoreHoriz } from "@mui/icons-material";
 function RightLink(props) {
     // console.log(props)
     return <Box
-                className={(props.selectedValue == props.to) && "selected-link-right" || ""}
+                className={((props.selectedValue === props.to) && "selected-link-right") || ""}
                 sx={{paddingX: 0.5, marginX: 1}}
             >
             <Link className={"link link-right"} to={props.to}>
@@ -26,6 +26,7 @@ export default function Navbar(current) {
 
     if (window && !path) {
         setPath(window.location.pathname)
+        document.title = "Abhinav Yadav - " + window.location.pathname.substring(1)
     }
     return <Box display="flex" flexDirection="row" className="navbar">
         <Box
