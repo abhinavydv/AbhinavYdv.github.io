@@ -23,7 +23,7 @@ export function Projects() {
         {
             name: "QueryLane",
             description: "A project for DBMS-II course at IIT Hyderabad. This is a QnA platform with minimal functionality.",
-            url: "https://github.com/Sephamore/QueryLane",
+            url: "https://github.com/Sephamores/QueryLane",
             from: "Feb 2023",
             to: "Mar 2023"
         },
